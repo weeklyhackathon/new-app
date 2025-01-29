@@ -4,6 +4,8 @@ This is a React Native Expo app that serves as the interface for the $hackathon 
 
 ## Production Build
 
+This app is accessible through this farcaster frame: [warpcast link](https://warpcast.com/jpfraneto.eth/0x185d762a)
+
 ## Mission
 
 To provide hackers with an intuitive interface to interact with the $hackathon system, enabling seamless participation in weekly hackathons and community engagement.
