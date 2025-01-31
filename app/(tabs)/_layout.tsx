@@ -20,11 +20,15 @@ export default function TabLayout() {
             backgroundColor: "black",
             borderTopColor: "#00ff00",
             borderTopWidth: 1,
+            height: 70, // 40% taller than default ~50px
+            paddingTop: 8, // Move icons to top
           },
           default: {
             backgroundColor: "black",
             borderTopColor: "#00ff00",
             borderTopWidth: 1,
+            height: 70,
+            paddingTop: 8,
           },
         }),
       }}

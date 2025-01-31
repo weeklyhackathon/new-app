@@ -5,7 +5,6 @@ import React, { useState, useEffect, useCallback } from "react";
 import sdk from "@farcaster/frame-sdk";
 import { useAccount, useReadContract, useWriteContract } from "wagmi";
 import weeklyHackathonAbi from "@/lib/weekly_hackathon_abi.json";
-import { writeContract } from "viem/actions";
 
 const WEEKLY_HACKATHON_CONTRACT_ADDRESS =
   "0x9D341F2dBB7b77f77C051CbBF348F4BF5C858Fab";
@@ -76,7 +75,7 @@ export default function ProfileScreen() {
     const context = await sdk.context;
     if (!context?.user?.fid) {
       sdk.actions.openUrl(
-        "https://warpcast.com/~/frames/launch?domain=weeklyhackathon.com"
+        "https://warpcast.com/~/frames/launch?domain=hackathontoken.com"
       );
       setIsMinting(false);
       return;

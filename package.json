@@ -18,6 +18,7 @@
     "@ethersproject/shims": "^5.7.0",
     "@expo-google-fonts/inter": "^0.2.3",
     "@expo/vector-icons": "^14.0.2",
+    "@farcaster/auth-kit": "^0.6.0",
     "@farcaster/frame-sdk": "^0.0.26",
     "@privy-io/expo-native-extensions": "^0.0.3",
     "@react-navigation/bottom-tabs": "^7.2.0",
@@ -25,6 +26,7 @@
     "@tanstack/react-query": "^5.65.1",
     "expo": "~52.0.27",
     "expo-application": "~6.0.2",
+    "expo-av": "~15.0.2",
     "expo-blur": "~14.0.2",
     "expo-clipboard": "~7.0.1",
     "expo-constants": "~17.0.4",
@@ -51,6 +53,7 @@
     "react-native-screens": "~4.4.0",
     "react-native-web": "~0.19.13",
     "react-native-webview": "13.12.5",
+    "stream-chat": "^8.54.0",
     "tailwindcss": "^3.4.17",
     "viem": "^2.22.12",
     "wagmi": "^2.14.9"
