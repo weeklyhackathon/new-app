@@ -8,7 +8,7 @@ import { useColorScheme } from "@/hooks/useColorScheme";
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
-
+  console.log("new layout");
   return (
     <Tabs
       screenOptions={{
